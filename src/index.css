@@ -69,3 +69,13 @@
   cursor: pointer;
   transform: scale(1.1);
 }
+
+.red-dot {
+  width: 10px;
+  height: 10px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  pointer-events: none;
+  /* Ensure the dot doesn't interfere with clicks */
+}

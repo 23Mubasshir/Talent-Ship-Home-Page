@@ -8,6 +8,21 @@
       Advisory Forum</title>
   </head>
   <body>
+    <div class="red-dot"></div>
+    <script>
+        // Get a reference to the red dot element
+        const redDot = document.querySelector('.red-dot');
+
+        // Define an offset to position the dot slightly above the cursor
+        const offset = 10; // Adjust this value as needed
+
+        // Add a listener for the mousemove event
+        document.addEventListener('mousemove', (e) => {
+            // Update the position of the red dot based on the cursor's position with an offset
+            redDot.style.left = `${e.clientX}px`;
+            redDot.style.top = `${e.clientY - offset}px`; // Apply the offset here
+        });
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
