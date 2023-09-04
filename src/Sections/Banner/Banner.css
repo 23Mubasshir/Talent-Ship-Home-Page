@@ -1,6 +1,6 @@
 .banner-wrapper {
   height: 1250px;
-  background-color: var(--primary);
+  background-color: rgb(8, 75, 119);
   background-image: url("../../assets/1.jpg");
   background-repeat: no-repeat;
   /* background-size: cover;
