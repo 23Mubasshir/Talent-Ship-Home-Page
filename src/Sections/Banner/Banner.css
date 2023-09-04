@@ -3,16 +3,24 @@
   background-color: rgb(8, 75, 119);
   background-image: url("../../assets/1.jpg");
   background-repeat: no-repeat;
-  /* background-size: cover;
-  background-position: center; */
-  /* background-image: url(../../assets/footer-shape-1.png), url(../../assets/footer-shape-2.png);
-  background-position: bottom -50px left -50px, top 0px right 0px;
-  background-repeat: no-repeat, no-repeat; */
+
+  /* background-image: url(../../assets/BannerWaveBg.png) , url(../../assets/1.jpg);
+  background-position: bottom left, top left;
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, cover; */
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
+.banner-background-wave{
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+  width: 100%;
+  object-fit: contain;
+}
+
 .banner-image {
   position: absolute;
   bottom: -50px;
@@ -58,6 +66,9 @@
 @media all and (max-width: 800px) {
   .banner-wrapper {
     height: 950px;
+  }
+  .banner-background-wave{
+    bottom: 0px;
   }
 }
 
