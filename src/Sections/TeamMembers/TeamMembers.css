@@ -1,0 +1,14 @@
+.team-member-img {
+  height: 300px;
+  object-fit: contain;
+}
+.team-members-section-bg {
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(148, 221, 255, 0.205)), url(../../assets/team-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+.team-member-description{
+  font-size: 13px;
+  width: 250px;
+}
