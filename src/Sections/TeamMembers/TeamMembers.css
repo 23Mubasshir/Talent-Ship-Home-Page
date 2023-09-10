@@ -12,3 +12,13 @@
   font-size: 13px;
   width: 250px;
 }
+
+@media (max-width: 350px) {
+  .team-member-img {
+    height: 200px;
+    object-fit: contain;
+  }
+  .team-member-description{
+    width: 80%;
+  }
+}

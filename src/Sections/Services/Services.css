@@ -1,0 +1,66 @@
+.services-banner {
+    background-image: url(https://i.ibb.co/VHTdDQj/servicesbanner.jpg);
+    background-attachment: fixed;
+    background-position: center; /* Add this line */
+    background-size: cover; /* You can also use 'cover' to ensure the image covers the entire element */
+    /* height: max-content; */
+    /* padding: 100px 0; */
+}
+.btns{
+    background-color: #D9042B; 
+    color: #fff;
+    outline: none;
+    border: none;
+}
+.btns:hover{
+    background-color: #033866;
+}
+.services-card{
+    width: 50%;
+}
+
+@media (max-width: 992px){
+    /* .services-card{
+        width: 100%;   
+    } */
+    p{
+        letter-spacing: inherit;
+        line-height: 18px;
+    }
+    .btns{
+        padding: 14px 22px !important;
+        font-size: 14px;
+    }
+    
+}
+@media (max-width: 766px){
+    .services-card{
+        width: 100%;
+        margin-top: 20px;
+        
+    }
+    .c-order{
+        order: 1;
+    }
+    p{
+        letter-spacing: inherit;
+        line-height: 18px;
+    }
+}
+/* @media (min-width: 992px){
+    .services-content{
+        width: 100%;
+    }
+    
+} */
+.services-content {
+    width: 960px; /* Default width for large devices */
+    margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+    .services-content {
+        width: 100%; /* Use the default container width for smaller devices */
+        padding: 0px 20px;
+    }
+}
