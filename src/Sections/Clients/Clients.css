@@ -1,0 +1,9 @@
+.Clients-comment-section {
+  background-color: black;
+}
+
+.client-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}

@@ -7,7 +7,7 @@ const ServicesHeading = () => {
   return (
     <div className="container consulting-services-section p-4 p-sm-5">
       <div>
-        <h1 className="services-header">
+        <h1 className="section-header">
           Consulting <br />
           Services
         </h1>

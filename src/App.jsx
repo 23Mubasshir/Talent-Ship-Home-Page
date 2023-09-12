@@ -2,7 +2,7 @@ import "./App.css";
 import CustomCursor from "./Components/CustomCursor/CustomCursor";
 import AboutUs from "./Sections/AboutUs/AboutUs";
 import Banner from "./Sections/Banner/Banner";
-import Connections from "./Sections/Connections/Connections";
+import Clients from "./Sections/Clients/Clients";
 import ContactForm from "./Sections/ContactForm/ContactForm";
 import ContactInfo from "./Sections/ContactInfo/ContactInfo";
 import Footer from "./Sections/Footer/Footer";
@@ -16,16 +16,16 @@ function App() {
     <>
       <div>
         <CustomCursor></CustomCursor>
-          <SharedNavbar></SharedNavbar>
-          <Banner></Banner>
-          <AboutUs></AboutUs>
-          <ServicesHeading></ServicesHeading>
-          <Services></Services>
-          <Connections></Connections>
-          <ContactForm></ContactForm>
-          <ContactInfo></ContactInfo>
-          <TeamMembers></TeamMembers>
-          <Footer></Footer>
+        <SharedNavbar></SharedNavbar>
+        <Banner></Banner>
+        <AboutUs></AboutUs>
+        <ServicesHeading></ServicesHeading>
+        <Services></Services>
+        <Clients></Clients> 
+        <ContactInfo></ContactInfo>
+        <ContactForm></ContactForm>
+        <TeamMembers></TeamMembers>
+        <Footer></Footer>
       </div>
     </>
   );

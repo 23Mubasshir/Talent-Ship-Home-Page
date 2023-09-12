@@ -7,13 +7,13 @@
     /* padding: 100px 0; */
 }
 .btns{
-    background-color: #D9042B; 
+    background-color: #c20c15; 
     color: #fff;
     outline: none;
     border: none;
 }
 .btns:hover{
-    background-color: #033866;
+    background-color: #000000;
 }
 .services-card{
     width: 50%;

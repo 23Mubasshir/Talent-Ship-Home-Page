@@ -3,7 +3,7 @@
   object-fit: contain;
 }
 .team-members-section-bg {
-  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(148, 221, 255, 0.205)), url(../../assets/team-bg.png);
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgb(255, 255, 255)), url(../../assets/team-bg.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;

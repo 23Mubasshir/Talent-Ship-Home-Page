@@ -14,7 +14,7 @@
   font-size: 120px;
 }
 
-.services-header {
+.section-header {
   font-size: 120px;
   line-height: 110px;
   padding-top: 120px;
@@ -48,7 +48,7 @@
 
 .services-slogan-row-button:hover {
   background-size: 0 3px, 100% 3px;
-  color: rgb(0, 93, 180);
+  color: rgb(0, 57, 110);
   .services-slogan-row-button-icon {
     font-size: 35px;
     margin: 0 5px 0 10px;
@@ -74,7 +74,7 @@
 
 
 @media (max-width: 990px) {
-  .services-header {
+  .section-header {
     font-size: 80px;
     line-height: 70px;
     padding-top: 120px;
@@ -91,14 +91,14 @@
   .services-section-number {
     font-size: 80px;
   }
-  .services-header {
+  .section-header {
     font-size: 70px;
     padding-top: 0px;
   }
 }
 
 @media (max-width: 350px) {
-  .services-header {
+  .section-header {
     font-size: 40px;
     line-height: 50px;
     padding-top: 0;
@@ -117,7 +117,7 @@
 
   .services-slogan-row-button:hover {
     background-size: 0 3px, 100% 3px;
-    color: rgb(0, 93, 180);
+    color: rgb(85, 4, 1);
     .services-slogan-row-button-icon {
       font-size: 15px;
       margin: 0 5px 5px 10px;

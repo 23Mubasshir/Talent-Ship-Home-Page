@@ -16,3 +16,8 @@
     box-shadow: 10px 10px 20px rgba(63, 63, 63, 0.452);
 }
 
+.social-div{
+    background-color: black;
+    height: 100px;
+    border-radius: 10px;
+}

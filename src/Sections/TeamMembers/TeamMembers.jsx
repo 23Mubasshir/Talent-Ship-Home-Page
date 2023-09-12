@@ -6,11 +6,10 @@ import person4 from "../../assets/person-4.jpg";
 
 const TeamMembers = () => {
   return (
-    <div className="team-members-section">
+    <div className="team-members-section mb-5">
       <div className="team-members-section-bg">
         <div className="container p-5">
-          <h1 className="h3 fw-bold">Team Members</h1>
-          <h1 className="display-3 fw-normal">Meet Our Experts</h1>
+          <h1 className="section-header text-start">Team Members</h1>
           <div className="row py-5">
             <div className="col col-12 col-md-6 col-lg-3 mb-5">
               <img className="team-member-img" src={person1} alt="" />
