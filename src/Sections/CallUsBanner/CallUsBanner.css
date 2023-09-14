@@ -1,0 +1,32 @@
+.call-us-banner {
+  height: 400px;
+  margin: 200px 0 100px 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.61), rgba(5, 58, 102, 0.63)),
+    url(../../assets/CallUsBg.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 25%;
+  background-size: cover;
+}
+
+.call-us-banner-col {
+  height: 400px;
+}
+
+.call-us-banner-small-font {
+  font-size: 15px;
+}
+
+.vertical-line {
+  border-left: 2px solid rgba(255, 255, 255, 0.514);
+  height: 270px;
+}
+
+@media all and (max-width: 575px) {
+  
+  .vertical-line {
+    border-left: 2px solid rgba(255, 255, 255, 0);
+    height: 270px;
+  }
+}
+
+

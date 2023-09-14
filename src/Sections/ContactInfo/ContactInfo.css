@@ -1,23 +1,19 @@
-.contact-social-img{
-    max-width: 180px;
-    height: 100px;
-    object-fit: contain;
-    
+.social-div {
+  background-color: rgb(0, 0, 0);
+  height: 100px;
 }
 
-.contact-social-info{
-    filter: grayscale(100%);
-    border-radius: 15px;
-    padding: 10px 0 20px 0;
+.social-div:hover {
+  background-color: rgb(10, 8, 32);
+  color: rgb(3, 3, 3);
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: all 150ms ease-in;
+  box-shadow: #fff;
 }
 
-.contact-social-info:hover{
-    filter: grayscale(0%);
-    box-shadow: 10px 10px 20px rgba(63, 63, 63, 0.452);
-}
-
-.social-div{
-    background-color: black;
-    height: 100px;
-    border-radius: 10px;
+@media all and (max-width: 570px) {
+  .social-div:hover {
+    transform: scale(1);
+  }
 }

@@ -2,6 +2,7 @@ import "./App.css";
 import CustomCursor from "./Components/CustomCursor/CustomCursor";
 import AboutUs from "./Sections/AboutUs/AboutUs";
 import Banner from "./Sections/Banner/Banner";
+import CallUsBanner from "./Sections/CallUsBanner/CallUsBanner";
 import Clients from "./Sections/Clients/Clients";
 import ContactForm from "./Sections/ContactForm/ContactForm";
 import ContactInfo from "./Sections/ContactInfo/ContactInfo";
@@ -22,8 +23,9 @@ function App() {
         <ServicesHeading></ServicesHeading>
         <Services></Services>
         <Clients></Clients> 
-        <ContactInfo></ContactInfo>
         <ContactForm></ContactForm>
+        <ContactInfo></ContactInfo>
+        <CallUsBanner></CallUsBanner>
         <TeamMembers></TeamMembers>
         <Footer></Footer>
       </div>
